@@ -66,7 +66,6 @@ class PendaftaranController extends Controller
             'data' => [
                 'norm' => $pendaftaran->norm,
                 'no_pendaftaran' => $pendaftaran->no_pendaftaran,
-                'status' => $pendaftaran->status,
                 'tgl_kunjungan' => $pendaftaran->tgl_kunjungan,
                 'tgl_selesai_kunjungan' => $pendaftaran->tgl_selesai_kunjungan ? $pendaftaran->tgl_selesai_kunjungan->format('Y-m-d H:i:s') : null, // Format yang benar
             ],
